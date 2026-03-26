@@ -1,0 +1,4 @@
+interface:
+  display_name: "arXiv Scraper Maintenance"
+  short_description: "Maintain the QEC arXiv scraper workflow"
+  default_prompt: "Use $arxiv-scraper-maintenance to update the scraper, docs, setup, or output behavior."

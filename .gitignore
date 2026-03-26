@@ -1,0 +1,71 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# Generated artifacts (scrapers)
+arxiv_*.txt
+arxiv_*.xlsx
+data/weekly/qec_*.csv
+data/weekly/qec_*.jsonl
+data/weekly/qec_*.md
+data/weekly/*.bib
+data/bib_files/*.bib
+
+# Database files
+data/*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+coverage.xml
+.pytest_cache/
+.tox/
+htmlcov/
+
+# Local development
+local_config.json

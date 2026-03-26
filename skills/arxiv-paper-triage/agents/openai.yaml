@@ -1,0 +1,4 @@
+interface:
+  display_name: "arXiv Paper Triage"
+  short_description: "Triage scraped arXiv papers for QEC relevance"
+  default_prompt: "Use $arxiv-paper-triage to review generated arXiv exports and shortlist QEC-related papers."
