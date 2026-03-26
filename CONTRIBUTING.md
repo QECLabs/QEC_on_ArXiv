@@ -7,7 +7,7 @@ Thank you for your interest in contributing to this project! This document provi
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/your-username/QEC_on_ArXiv.git
+   git clone https://github.com/QECLabs/QEC_on_ArXiv.git
    cd QEC_on_ArXiv
    ```
 

@@ -25,7 +25,7 @@ Weekly exports include all scored candidates for review. The SQLite database sto
 ### 1. Clone and create a virtual environment
 
 ```bash
-git clone https://github.com/<your-github-username>/QEC_on_ArXiv.git
+git clone https://github.com/QECLabs/QEC_on_ArXiv.git
 cd QEC_on_ArXiv
 python3 -m venv .venv
 source .venv/bin/activate
@@ -193,7 +193,7 @@ If you use this project in research, update the repository URL below to the fina
 @software{qec_arxiv_2026,
   author = {QEC on ArXiv Contributors},
   title = {QEC on ArXiv: Quantum Error Correction Paper Tracker},
-  url = {https://github.com/<your-github-username>/QEC_on_ArXiv},
+  url = {https://github.com/QECLabs/QEC_on_ArXiv},
   year = {2026}
 }
 ```
