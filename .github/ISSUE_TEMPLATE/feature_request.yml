@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose a new tracker, exporter, filtering, or workflow improvement.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What workflow gap are you trying to solve?
+      placeholder: I want a cleaner way to...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the desired behavior or interface.
+      placeholder: Add a CLI option that...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Note any workarounds or competing approaches.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected impact
+      description: Explain how this would help QEC tracking or BibTeX export workflows.

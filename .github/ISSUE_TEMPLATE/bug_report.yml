@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a defect in the tracker, exporter, tests, or documentation.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug. Include a minimal reproduction and the exact command you ran if possible.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What broke?
+      placeholder: qec_tracker.py crashes when parsing...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest sequence of steps that reproduces the issue.
+      placeholder: |
+        1. Activate the virtual environment
+        2. Run `python qec_tracker.py --start-date ...`
+        3. Observe the failure
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, OS, and any relevant dependency details.
+      placeholder: |
+        - OS:
+        - Python:
+        - Command:
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or traceback
+      render: shell

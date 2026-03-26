@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - narrowed the runtime dependency set to the current API tracker and exporter workflow
 - updated repository docs, skills, and GitHub metadata to match `qec_tracker.py` and `bibtex_exporter.py`
 - refreshed `.gitignore` so current generated weekly exports and BibTeX outputs stay out of public commits
+- added GitHub issue and pull request templates for contributor intake
 
 ### Fixed
 
